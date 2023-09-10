@@ -689,4 +689,4 @@ Below is the whole list of the rules provided by the `is` package:
 
 ## Base on
 * [ozzo-validation@v4.3.0](https://github.com/go-ozzo/ozzo-validation/tree/v4.3.0)
-* The `is`, `is/utils` sub-package wraps the excellent validators provided by the [govalidator](https://github.com/asaskevich/govalidator) package.
+* The `is`, `is/utils` sub-package wraps the excellent validators provided by the [govalidator@475eaeb16496](https://github.com/asaskevich/govalidator/tree/475eaeb164960a651e97470412a7d3b0c5036105) package.
