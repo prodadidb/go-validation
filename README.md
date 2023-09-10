@@ -686,3 +686,7 @@ Below is the whole list of the rules provided by the `is` package:
 * `Longitude`: validates if a string is a valid longitude
 * `SSN`: validates if a string is a social security number (SSN)
 * `Semver`: validates if a string is a valid semantic version
+
+## Base on
+* [ozzo-validation@v4.3.0](https://github.com/go-ozzo/ozzo-validation/tree/v4.3.0)
+* The `is`, `is/utils` sub-package wraps the excellent validators provided by the [govalidator](https://github.com/asaskevich/govalidator) package.
