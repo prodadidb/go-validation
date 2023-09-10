@@ -14,12 +14,6 @@ It has the following features:
 * provide a rich set of validation rules right out of box.
 * extremely easy to create and use custom validation rules.
 
-For an example on how this library is used in an application, please refer to [go-rest-api](https://github.com/qiangxue/go-rest-api) which is a starter kit for building RESTful APIs in Go.
-
-## Requirements
-
-Go 1.13 or above.
-
 
 ## Getting Started
 
@@ -127,7 +121,7 @@ rules. For example,
 
 ```go
 c := map[string]interface{}{
-    "Name":  "Qiang Xue",
+    "Name":  "Prodadi DB",
     "Email": "q",
     "Address": map[string]interface{}{
 	"Street": "123",
@@ -199,7 +193,7 @@ tag values, you may use the following alternative approach:
 
 ```go
 c := Customer{
-    Name:  "Qiang Xue",
+    Name:  "Prodadi DB",
     Email: "q",
     Address: Address{
 	State:  "Virginia",
@@ -289,7 +283,7 @@ func (c Customer) Validate() error {
 }
 
 c := Customer{
-    Name:  "Qiang Xue",
+    Name:  "Prodadi DB",
     Email: "q",
     Address: Address{
 	Street: "123 Main Street",
@@ -350,7 +344,7 @@ func (c Customer) Validate() error {
 }
 
 c := Customer{
-    Name:   "Qiang Xue",
+    Name:   "Prodadi DB",
     Emails: []Email{
         "valid@example.com",
         "invalid",
