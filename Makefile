@@ -3,10 +3,6 @@
 .PHONY: default
 default: test
 
-.PHONY: build
-build:
-	go build -v -o $(BUILDNAME) $(GOFLAGS) ./cmd/
-
 .PHONY: gen
 gen:
 	go generate -v ./...
